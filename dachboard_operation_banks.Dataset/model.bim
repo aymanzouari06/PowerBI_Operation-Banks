@@ -1,0 +1,1622 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1805.0 (23.12)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dim_bank\",\"dim_categorie1\",\"dim_categorie2\",\"dim_date\",\"dim_resultat\",\"dim_subscriber\",\"dim_type d'operation\",\"table_fait\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "fr-FR",
+    "cultures": [
+      {
+        "name": "fr-FR",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "dim_date.annee": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_date",
+                    "ConceptualProperty": "Annee"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Année": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_resultat.mp_result_code_description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_resultat",
+                    "ConceptualProperty": "mp_result_code_description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_result_code_description": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_bin_bank_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_bin_bank_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bank": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "mp_bin_bank_name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_op_cat_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_op_cat_1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Categorie": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_op_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_op_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_op_type": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_result_code_description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_result_code_description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_result_code_description": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_sub_ops_msisdn_operator": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_sub_ops_msisdn_operator"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_sub_ops_msisdn_operator": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_sub_ops_msisdn_pioneer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_sub_ops_msisdn_pioneer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_sub_ops_msisdn_pioneer": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.mp_sub_ops_status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "mp_sub_ops_status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mp_sub_ops_status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.nombre_operation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "Nombre Operation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Nombre Operation Total": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.nombreclient": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "NombreClient"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "NombreClient  Total": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.taux_derreur": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "Taux d'erreur"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nombre d'erreurs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Taux d'erreurs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_fait.total_montant": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table_fait",
+                    "ConceptualProperty": "Total Montant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Total Montant": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "0beb7588-5455-4ebf-9f9d-067078a4d1d1",
+        "fromColumn": "mp_bin_id",
+        "fromTable": "table_fait",
+        "toColumn": "mp_bin_id",
+        "toTable": "dim_bank"
+      },
+      {
+        "name": "615c8ad7-955b-4cc0-9b85-317000b2fcd9",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "mp_op_id",
+        "fromTable": "dim_type d'operation",
+        "toColumn": "mp_op_id",
+        "toTable": "dim_categorie1"
+      },
+      {
+        "name": "45c4c0b5-3aea-48e0-868a-16f43b68d3c2",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "id_subscriber",
+        "fromTable": "dim_subscriber",
+        "toColumn": "id_subscriber",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "7184fe2c-4536-4c4b-ad06-2a04aa04f7fc",
+        "fromColumn": "mp_result_code_id",
+        "fromTable": "table_fait",
+        "toColumn": "mp_result_code_id",
+        "toTable": "dim_resultat"
+      },
+      {
+        "name": "a47256c6-95fa-4564-a528-923d5b641423",
+        "fromColumn": "mp_op_type",
+        "fromTable": "table_fait",
+        "toColumn": "mp_op_type",
+        "toTable": "dim_type d'operation"
+      },
+      {
+        "name": "3ffcb9f8-b2f1-49e0-9fb3-86b0ee072e13",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "mp_op_id",
+        "fromTable": "dim_type d'operation",
+        "toColumn": "mp_op_id",
+        "toTable": "dim_categorie2"
+      },
+      {
+        "name": "22a1065a-8200-4051-a545-1575648e906f",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "id_subscriber",
+        "fromTable": "dim_subscriber",
+        "toColumn": "id_subscriber",
+        "toTable": "table_fait"
+      }
+    ],
+    "sourceQueryCulture": "fr-FR",
+    "tables": [
+      {
+        "name": "dim_bank",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":5,\"keyColumnNames\":[\"mp_bin_id\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_acceptance,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_type,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_bank_name,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_bank_code,4}\"],\"ColumnCount\":5,\"KeyColumnNames\":[\"mp_bin_id\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_acceptance,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_type,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_bank_name,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_bank.{mp_bin_bank_code,4}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "mp_bin_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "204b05cf-4670-459d-8308-537ed358e717",
+            "sourceColumn": "mp_bin_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_acceptance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "d0c864b3-fde0-414e-8794-38bebb34975b",
+            "sourceColumn": "mp_bin_acceptance",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "e67c4769-e26b-49cc-8a5d-f26fd2199c2d",
+            "sourceColumn": "mp_bin_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_bank_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "82b3ab8d-048e-47b9-b45c-8dcc3cdc280b",
+            "sourceColumn": "mp_bin_bank_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_bank_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d80f8985-d618-4b2d-9dac-32033279407d",
+            "sourceColumn": "mp_bin_bank_code",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6df127a0-ad38-4dc8-a402-6b5c5acdc929",
+        "partitions": [
+          {
+            "name": "dim_bank-3621547c-46de-450a-9751-a3aabd86eaca",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_bank = Source{[Schema=\"dbo\",Item=\"dim_bank\"]}[Data]",
+                "in",
+                "    dbo_dim_bank"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_892c2723-b90e-4e48-b375-5f664df259d4",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "c1e666a5-9cb6-4380-a325-2a7f61a9b6cb",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Année",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a78e5e87-2a52-4eb4-abf8-37e293656065",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NoMois",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2fd885b8-6534-4aa7-bf9f-47c72f444ad2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mois",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "f2ee5fc2-f652-43ba-99d4-9cf09c01cc80",
+            "sortByColumn": "NoMois",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NoTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NoMois] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d52cb1c8-fca8-46ed-95fb-355365a449d7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [NoTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "b5f0fd77-9ec9-4335-8e99-f931997e3a9e",
+            "sortByColumn": "NoTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Jour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ae99ec44-5e2b-4a0b-b19d-de284cc761a2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hiérarchie de dates",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Année",
+                "column": "Année",
+                "lineageTag": "ddf62f2b-0337-4415-b491-2664f4d8ec52",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "9699d319-7903-4d21-93a8-d6c29d788f69",
+                "ordinal": 1
+              },
+              {
+                "name": "Mois",
+                "column": "Mois",
+                "lineageTag": "ce2c3f61-a53e-4046-b9c3-9d4a61c10487",
+                "ordinal": 2
+              },
+              {
+                "name": "Jour",
+                "column": "Jour",
+                "lineageTag": "821682fe-bdf7-4a33-be7f-66b58b05d44f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "6e831eb2-9ded-47d7-af99-fbd9b4f431d9"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "c5865895-4c05-406d-91cc-6d8543427406",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_892c2723-b90e-4e48-b375-5f664df259d4-898d2745-2cec-43e9-ba42-7627b5710e77",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_categorie1",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":3,\"keyColumnNames\":[\"id_cat1\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{id_cat1,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{mp_op_cat_1,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{mp_op_id,2}\"],\"ColumnCount\":3,\"KeyColumnNames\":[\"id_cat1\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{id_cat1,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{mp_op_cat_1,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie1.{mp_op_id,2}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_cat1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "43ee4dce-95ec-480d-bbcb-e3f0547b2400",
+            "sourceColumn": "id_cat1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mp_op_cat_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8f838e9a-c476-4205-8c88-7e4bc401ec25",
+            "sourceColumn": "mp_op_cat_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "065fb8f2-601f-4215-8e62-8e2d097c48d8",
+            "sourceColumn": "mp_op_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ae11ce7f-2a7b-4f1e-b56f-f20160d3c85a",
+        "partitions": [
+          {
+            "name": "dim_categorie1-2c94b70a-ea9d-4445-ada9-32d7942a07be",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_categorie1 = Source{[Schema=\"dbo\",Item=\"dim_categorie1\"]}[Data]",
+                "in",
+                "    dbo_dim_categorie1"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_categorie2",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":3,\"keyColumnNames\":[\"id_cat2\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{id_cat2,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{mp_op_cat_2,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{mp_op_id,2}\"],\"ColumnCount\":3,\"KeyColumnNames\":[\"id_cat2\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{id_cat2,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{mp_op_cat_2,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_categorie2.{mp_op_id,2}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_cat2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4b856501-9eb2-4d02-a6c2-0b7e46f331d0",
+            "sourceColumn": "id_cat2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mp_op_cat_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c333a5b7-1a71-4194-a90e-779f93dbb494",
+            "sourceColumn": "mp_op_cat_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "58f7d09d-1a63-43d9-8a10-ae525118d6e6",
+            "sourceColumn": "mp_op_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "42586032-b92d-4721-9623-42c6bfefde9c",
+        "partitions": [
+          {
+            "name": "dim_categorie2-8cb32615-d413-4647-ba7b-3c106385e5f5",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_categorie2 = Source{[Schema=\"dbo\",Item=\"dim_categorie2\"]}[Data]",
+                "in",
+                "    dbo_dim_categorie2"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":9,\"keyColumnNames\":[\"id_date\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{id_date,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Jour,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Mois,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Annee,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{jour_mois_annee,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{heure,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{minute,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{seconde,8}\"],\"ColumnCount\":9,\"KeyColumnNames\":[\"id_date\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{id_date,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Jour,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Mois,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{Annee,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{jour_mois_annee,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{heure,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{minute,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_date.{seconde,8}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_subscriber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "36235471-3edb-4a74-985e-5ae03b998013",
+            "sourceColumn": "id_subscriber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f5c59e0a-21f1-4dcc-942c-6501f0f20c7a",
+            "sourceColumn": "id_date",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Jour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "87cb16e5-0fae-4e8b-9be0-6f034f056b63",
+            "sourceColumn": "Jour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Mois",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "668278e0-9270-42b7-8059-110fbb50295e",
+            "sourceColumn": "Mois",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Annee",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6dfa0695-29e8-4139-8f30-37f4d72f2fa7",
+            "sourceColumn": "Annee",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "jour_mois_annee",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "17da9395-a07b-4347-854d-4bcaf40b13fe",
+            "sourceColumn": "jour_mois_annee",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "heure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f9a8228-d69b-4277-b4d1-73a183d2794a",
+            "sourceColumn": "heure",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "minute",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ebdf3247-8f22-4d76-904f-3503b3b2e000",
+            "sourceColumn": "minute",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "seconde",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "27239080-6e76-4c5a-a138-23b87a845453",
+            "sourceColumn": "seconde",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e368f5e3-532c-4ce9-bcf9-4dd921895bf1",
+        "partitions": [
+          {
+            "name": "dim_date-faae77a8-582d-4b07-b9d8-09df528f89a9",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_date = Source{[Schema=\"dbo\",Item=\"dim_date\"]}[Data]",
+                "in",
+                "    dbo_dim_date"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_resultat",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":3,\"keyColumnNames\":[\"mp_result_code_id\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_description,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_reco_filter,2}\"],\"ColumnCount\":3,\"KeyColumnNames\":[\"mp_result_code_id\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_description,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_resultat.{mp_result_code_reco_filter,2}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "mp_result_code_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5523ce4e-b4d1-44e1-816b-4cee71e8ad65",
+            "sourceColumn": "mp_result_code_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_result_code_description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "19d2fb64-ab7e-49c2-ae80-a74790e800e8",
+            "sourceColumn": "mp_result_code_description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_result_code_reco_filter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d67e67dd-7ad5-496f-ac79-eec4762a0fb4",
+            "sourceColumn": "mp_result_code_reco_filter",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ae159fce-a46f-446f-90d4-991b6a6d4a3a",
+        "partitions": [
+          {
+            "name": "dim_resultat-c4c7abbf-ea62-4ce7-9d8a-d5b29660d211",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_resultat = Source{[Schema=\"dbo\",Item=\"dim_resultat\"]}[Data]",
+                "in",
+                "    dbo_dim_resultat"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_subscriber",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":9,\"keyColumnNames\":[\"id_subscriber\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_msisdn_pioneer,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_type,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_date,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_msisdn_operator,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_card_bin,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_result_code,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_status,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_amount,8}\"],\"ColumnCount\":9,\"KeyColumnNames\":[\"id_subscriber\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_msisdn_pioneer,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_type,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_date,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_msisdn_operator,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_card_bin,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_result_code,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_status,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_subscriber.{mp_sub_ops_amount,8}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_subscriber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2a506176-0a13-49a1-b2ca-b27f2a2b6c34",
+            "sourceColumn": "id_subscriber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_msisdn_pioneer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11ff1927-68b0-4c36-be18-fb4dd2be23b5",
+            "sourceColumn": "mp_sub_ops_msisdn_pioneer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c27da8c7-bb2f-496a-b09f-062e5b2bb0a0",
+            "sourceColumn": "mp_sub_ops_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5b94a31-3750-461b-88bd-8372ff4270b1",
+            "sourceColumn": "mp_sub_ops_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_msisdn_operator",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0fe833bc-6c77-44fe-a71f-4c649d77f129",
+            "sourceColumn": "mp_sub_ops_msisdn_operator",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_card_bin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9bb04fd2-139a-436f-a7f0-6af9c1b5e55e",
+            "sourceColumn": "mp_sub_ops_card_bin",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_result_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "65e8c349-762a-4e78-b15b-634ee949fd46",
+            "sourceColumn": "mp_sub_ops_result_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6c0164bc-50b8-4657-8c70-65af91b4cea4",
+            "sourceColumn": "mp_sub_ops_status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e6d66b7-2c68-4daa-acf2-6bdcd4f90f25",
+            "sourceColumn": "mp_sub_ops_amount",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "8ed7d60f-e2b0-417f-910c-91606791ca7f",
+        "partitions": [
+          {
+            "name": "dim_subscriber-68eb1ea9-c1d9-43bd-8d53-c52b12f2b286",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_dim_subscriber = Source{[Schema=\"dbo\",Item=\"dim_subscriber\"]}[Data]",
+                "in",
+                "    dbo_dim_subscriber"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_type d'operation",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":3,\"keyColumnNames\":[\"mp_op_id\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_type,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_order,2}\"],\"ColumnCount\":3,\"KeyColumnNames\":[\"mp_op_id\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_id,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_type,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/dim_type d'operation.{mp_op_order,2}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "mp_op_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "13099f38-d426-48b8-ad73-5a3a24906bee",
+            "sourceColumn": "mp_op_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94f50f1d-3d5e-4232-a875-9ff1fc268c0b",
+            "sourceColumn": "mp_op_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8a159cd6-9d6f-4c9d-b483-72559c9016b7",
+            "sourceColumn": "mp_op_order",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f4ee01fb-ea4b-4cd7-a775-ee66f347cb02",
+        "measures": [
+          {
+            "name": "nombreoperation",
+            "expression": "COUNT('dim_type d''operation'[mp_op_type])",
+            "formatString": "0",
+            "lineageTag": "e172b9f7-3389-4c93-9ee1-ee2cdaa143c3"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_type d'operation-849d0eeb-f8b9-44fc-87f5-0531727320ba",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    #\"dbo_dim_type d'operation\" = Source{[Schema=\"dbo\",Item=\"dim_type d'operation\"]}[Data]",
+                "in",
+                "    #\"dbo_dim_type d'operation\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "table_fait",
+        "annotations": [
+          {
+            "name": "PBI_QueryRelationships",
+            "value": "{\"columnCount\":17,\"keyColumnNames\":[\"id_subscriber\",\"mp_bin_id\",\"mp_result_code_id\",\"mp_op_id\"],\"queryRelationships\":[],\"columnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_bin_id,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_result_code_id,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_id,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_msisdn_pioneer,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{jour_mois_annee,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{heure,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{minute,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{seconde,8}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_bin_bank_name,9}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_msisdn_operator,10}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_result_code_description,11}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_type,12}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_cat_2,13}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_cat_1,14}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_status,15}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_amount,16}\"],\"ColumnCount\":17,\"KeyColumnNames\":[\"id_subscriber\",\"mp_bin_id\",\"mp_result_code_id\",\"mp_op_id\"],\"ColumnIdentities\":[\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{id_subscriber,0}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_bin_id,1}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_result_code_id,2}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_id,3}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_msisdn_pioneer,4}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{jour_mois_annee,5}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{heure,6}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{minute,7}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{seconde,8}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_bin_bank_name,9}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_msisdn_operator,10}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_result_code_description,11}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_type,12}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_cat_2,13}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_op_cat_1,14}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_status,15}\",\"Server.Database\\\\/2/SQL/desktop-rcmdb62;DW/dbo/table_fait.{mp_sub_ops_amount,16}\"],\"RelationshipInfo\":[]}"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_subscriber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d9b158bc-271d-454b-bd55-4a6546c48d6b",
+            "sourceColumn": "id_subscriber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cd7562d7-cd57-4c6d-962b-4425e5719b85",
+            "sourceColumn": "mp_bin_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_result_code_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8aaf8bcb-37b9-4c80-be9a-21cc3eca7530",
+            "sourceColumn": "mp_result_code_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "634a1472-608c-4e32-97d6-7744e008ad63",
+            "sourceColumn": "mp_op_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_msisdn_pioneer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3df5c9e-d870-42f7-978c-0d02bcbdd94f",
+            "sourceColumn": "mp_sub_ops_msisdn_pioneer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "jour_mois_annee",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "557eddbf-2359-4791-9675-9ac87383b4e0",
+            "sourceColumn": "jour_mois_annee",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "heure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4e0039a1-f1f1-4c1f-a944-8ad9072dff45",
+            "sourceColumn": "heure",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "minute",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b74e7b87-862f-4642-b486-ec58b94c1884",
+            "sourceColumn": "minute",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "seconde",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8ecfec0-0a3e-484c-80c6-1a5465bf0a90",
+            "sourceColumn": "seconde",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_bin_bank_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2496cec-c6a9-4347-ae31-f00b2f3b9732",
+            "sourceColumn": "mp_bin_bank_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_msisdn_operator",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22b22923-7e60-4842-89df-7bb69a636a38",
+            "sourceColumn": "mp_sub_ops_msisdn_operator",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_result_code_description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a0483729-0628-4f33-861f-4db4eb0fda0c",
+            "sourceColumn": "mp_result_code_description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d7b9d805-e5c9-479e-978e-9e41e9f4ce74",
+            "sourceColumn": "mp_op_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_cat_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d470ab40-b02e-4cae-bcf1-dc0e1db37b2d",
+            "sourceColumn": "mp_op_cat_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_op_cat_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ca9fb02-d71d-4a7d-add1-b516e82e8c6f",
+            "sourceColumn": "mp_op_cat_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3a891f1-aef7-4d6a-a64e-6f522f0e5ab4",
+            "sourceColumn": "mp_sub_ops_status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mp_sub_ops_amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7ed274ff-59f5-4e26-a122-9f5aa4cbc5fd",
+            "sourceColumn": "mp_sub_ops_amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ValeurMontantOperation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "VALUE(table_fait[mp_sub_ops_amount])",
+            "isDataTypeInferred": true,
+            "lineageTag": "3f1f0ee8-46c9-4a82-8a25-e5b403dec7e1",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "03b457b5-1ca2-44a8-a6c0-6d14ae75525f",
+        "measures": [
+          {
+            "name": "Taux d'erreur",
+            "expression": "CALCULATE(COUNT(table_fait[mp_result_code_description]),table_fait[mp_result_code_description]<>\"Succès\")",
+            "formatString": "0",
+            "lineageTag": "39258efa-8f46-4b35-ae1c-5fb5a8749297"
+          },
+          {
+            "name": "NombreClient",
+            "expression": "DISTINCTCOUNT(table_fait[mp_sub_ops_msisdn_pioneer])",
+            "formatString": "0",
+            "lineageTag": "6ce9398a-8acf-4122-a7e5-9e4fc46b6116"
+          },
+          {
+            "name": "Nombre d'Erreur par description",
+            "expression": "CALCULATE(COUNT(table_fait[mp_result_code_id]),DISTINCT(table_fait[mp_result_code_description]),table_fait[mp_result_code_description]<>\"Succès\") ",
+            "formatString": "0",
+            "lineageTag": "4a7440f3-62a7-4909-a3bb-c68b07ccd1a6"
+          },
+          {
+            "name": "Nombre Operation",
+            "expression": "CALCULATE(COUNT(table_fait[mp_op_type]))",
+            "formatString": "0",
+            "lineageTag": "f44a97d2-6f32-456f-9662-9debdc56f9ff"
+          },
+          {
+            "name": "Total Montant",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(table_fait[ValeurMontantOperation]),table_fait[mp_result_code_description]=\"Succès\") ",
+            "lineageTag": "9c2b6570-1b0d-4969-80e0-f0f1c1c86932"
+          },
+          {
+            "name": "nombre carte bancaire",
+            "expression": "CALCULATE(DISTINCTCOUNT(table_fait[mp_bin_id]))",
+            "formatString": "0",
+            "lineageTag": "28a047cb-91e9-4b3b-9ba3-1280e013883f"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "table_fait-4dbc3ebb-bd43-4928-82f4-a04a93b2d104",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-RCMDB62\", \"DW\"),",
+                "    dbo_table_fait = Source{[Schema=\"dbo\",Item=\"table_fait\"]}[Data]",
+                "in",
+                "    dbo_table_fait"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
